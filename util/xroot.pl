@@ -68,7 +68,7 @@ while (1) {
     my $now = now();
     my $net = net();
 
-    my $ROOT  = sprintf("%s | CPU %4.1f%% | MEM %4.1f%% | %s \n",
+    my $ROOT  = sprintf("%s | CPU %4.1f%% | MEM %4.1f%% | %s",
         $net,
         $cpu/2,
         $mem/2,

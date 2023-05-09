@@ -1,3 +1,9 @@
+"                               _                                              "
+"                       __   __(_) _ __ ___   _ __  ___                        "
+"                       \ \ / /| || '_ ` _ \ | '__|/ __|                       "
+"                        \ V / | || | | | | || |  | (__                        "
+"                         \_/  |_||_| |_| |_||_|   \___|                       "
+"                                                                              "
 set nu
 set relativenumber
 
@@ -107,4 +113,3 @@ call plug#end()
 let g:tokyonight_style = 'night'
 let g:tokyonight_enable_italic = 1
 colorscheme tokyonight
-
