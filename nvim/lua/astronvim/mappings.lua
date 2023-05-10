@@ -49,24 +49,18 @@ maps.n["<leader>pl"] = { "<cmd>AstroChangelog<cr>", desc = "AstroNvim Changelog"
 -- Manage Buffers
 maps.n["<leader>c"] = { function() require("astronvim.utils.buffer").close() end, desc = "Close buffer" }
 maps.n["<leader>C"] = { function() require("astronvim.utils.buffer").close(0, true) end, desc = "Force close buffer" }
--- USER_CHANGE
--- maps.n["]b"] =
---   { function() require("astronvim.utils.buffer").nav(vim.v.count > 0 and vim.v.count or 1) end, desc = "Next buffer" }
--- maps.n["[b"] = {
---   function() require("astronvim.utils.buffer").nav(-(vim.v.count > 0 and vim.v.count or 1)) end,
---   desc = "Previous buffer",
--- }
-maps.n["}"] =
+-- USER_CHANGE maps.n["]b"] =
+maps.n[",."] =
 { function() require("astronvim.utils.buffer").nav(vim.v.count > 0 and vim.v.count or 1) end, desc = "Next buffer" }
-maps.n["{"] = {
+maps.n[",,"] = {
   function() require("astronvim.utils.buffer").nav(-(vim.v.count > 0 and vim.v.count or 1)) end,
   desc = "Previous buffer",
 }
-maps.n["<leader>]"] = {
+maps.n["<leader>,."] = {
   function() require("astronvim.utils.buffer").move(vim.v.count > 0 and vim.v.count or 1) end,
   desc = "Move buffer tab right",
 }
-maps.n["<leader>["] = {
+maps.n["<leader>,,"] = {
   function() require("astronvim.utils.buffer").move(-(vim.v.count > 0 and vim.v.count or 1)) end,
   desc = "Move buffer tab left",
 }
