@@ -2,7 +2,7 @@ return {
   ActiveLSP = "LSP:",
   ArrowLeft = "<",
   ArrowRight = ">",
-  BufferClose = "",
+  BufferClose = "x",
   DapBreakpoint = "B",
   DapBreakpointCondition = "C",
   DapBreakpointRejected = "R",
@@ -36,5 +36,5 @@ return {
   Search = "?",
   Selected = "*",
   Spellcheck = "[SPELL]",
-  TabClose = "",
+  TabClose = "X",
 }

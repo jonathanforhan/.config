@@ -1,0 +1,16 @@
+{
+	"telemetryDisabled": false,
+	"cliId": "d9be0b57-835c-4cc6-961b-af635fb07a80",
+	"userId": "645fc2d200a471656017e554",
+	"users": {
+		"645fc2d200a471656017e554": {
+			"id": "645fc2d200a471656017e554",
+			"name": null,
+			"email": "jonathan.forhan@gmail.com",
+			"auth": {
+				"token": "8NfQIcx8Ujz9vXnLnuurSoo0ju-Xc8_Di1MsqvKK2L4",
+				"github": {}
+			}
+		}
+	}
+}
