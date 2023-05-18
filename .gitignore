@@ -1,4 +1,7 @@
-GIMP
-pavu*
-yay
-netlify*
+*
+!dwm
+!st
+!dmenu
+!nvim
+!tmux
+!scripts
