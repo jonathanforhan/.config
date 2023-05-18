@@ -10,3 +10,6 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/jonathanforhan/nvim
+[submodule "tmux"]
+	path = tmux
+	url = https://github.com/jonathanforhan/tmux.git
