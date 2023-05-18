@@ -1,7 +1,7 @@
 *
-!dwm
-!st
-!dmenu
-!nvim
-!tmux
-!scripts
+!dwm/*
+!st/*
+!dmenu/*
+!nvim/*
+!tmux/*
+!scripts/*
