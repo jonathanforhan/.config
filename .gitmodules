@@ -1,0 +1,12 @@
+[submodule "dmenu"]
+	path = dmenu
+	url = https://github.com/jonathanforhan/dmenu
+[submodule "dwm"]
+	path = dwm
+	url = https://github.com/jonathanforhan/dwm
+[submodule "st"]
+	path = st
+	url = https://github.com/jonathanforhan/st
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/jonathanforhan/nvim
